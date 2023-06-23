@@ -1,0 +1,13 @@
+package com.core;
+
+
+class Studaent1
+{
+	int rno;
+	string sname;
+	double per;
+}
+
+public class Serialization {
+
+}

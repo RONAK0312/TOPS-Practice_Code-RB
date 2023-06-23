@@ -1,0 +1,8 @@
+package com.core;
+
+import java.util.Scanner;
+
+public class CheckMaxNumber {
+
+	Scanner sc=new Scanner(System.in);
+}

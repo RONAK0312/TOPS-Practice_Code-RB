@@ -1,0 +1,9 @@
+package com.assignments;
+
+public class CAustarilaTraffice implements CentralTraffic {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}

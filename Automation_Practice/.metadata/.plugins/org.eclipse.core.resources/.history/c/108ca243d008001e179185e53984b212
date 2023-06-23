@@ -1,0 +1,21 @@
+package com.core;
+
+
+class Student1
+{
+	int rno;
+	String sname;
+	double per;
+	public Student1(int rno, String sname, double per) 
+	{
+		this.rno = rno;
+		this.sname = sname;
+		this.per = per;
+	}
+	
+	
+}
+
+public class Serialization {
+
+}

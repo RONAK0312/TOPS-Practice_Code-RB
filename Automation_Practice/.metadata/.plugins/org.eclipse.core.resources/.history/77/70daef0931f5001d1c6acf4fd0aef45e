@@ -1,0 +1,18 @@
+package com.core;
+
+import java.util.Scanner;
+
+public class CheckMaxNumber {
+
+	public static void main(String[] args) {
+		
+	Scanner sc=new Scanner(System.in);
+	int a,b,c;
+	System.out.print("Enters A");
+	a=sc.nextInt();
+	System.out.print("Enter B");
+	b=sc.nextInt();
+	
+	}
+}
+	

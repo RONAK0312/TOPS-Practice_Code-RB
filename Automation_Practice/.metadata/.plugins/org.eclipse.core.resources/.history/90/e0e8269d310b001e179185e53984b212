@@ -1,0 +1,18 @@
+package com.assignments;
+
+import java.util.Scanner;
+
+public class Table {
+	
+	public static void main(String[] args) {
+		
+		int a,i;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter a number");
+		a = sc.nextInt();
+		
+		
+		
+	}
+
+}

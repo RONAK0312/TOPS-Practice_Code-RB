@@ -1,0 +1,12 @@
+package com.assignments;
+
+public class StringDemo {
+
+	public static void main(StringLitral[] args) {
+		
+		//String Litral
+		String s = "Revishing";
+		String s1 = "RB";
+	}
+	
+}

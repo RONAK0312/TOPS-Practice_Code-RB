@@ -1,0 +1,16 @@
+package com.assignments;
+
+public class StringLitral {
+
+	public static void main(StringLitral[] args) {
+		
+		//Using New variable
+		String s2 = new String("Text 1");
+		String s3 = new String("Text 2");
+		
+		//String Litral
+		String s = "Revishing RB";
+		
+	}
+	
+}

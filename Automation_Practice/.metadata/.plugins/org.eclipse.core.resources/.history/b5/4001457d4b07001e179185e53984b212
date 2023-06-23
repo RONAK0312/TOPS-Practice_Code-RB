@@ -1,0 +1,34 @@
+package com.core;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+public class FileDemo {
+
+public static void main(String[] args) throws IOException {
+	
+	//Creates new file and write data into the file
+	FileOutputStream fos = new FileOutputStream("tops1.txt");
+	String s = "This is file output stream demo using java";
+	//Convert the characters into byte
+	byte b[] = s.getBytes();
+	fos.write(b);
+	//To clear Stream
+	fos.flush();
+	// To close
+	fos.close();
+	System.out.println("File written succesfully");
+	
+	//To read the text and print into Console
+	FileInputStream fis = new FileInputStream("tops1.txt");
+	int i;
+	//To convert into characters
+	while ((i=fis.read())!=-1);
+	{
+		System.out.println((char)i);
+	}
+	fis.close();
+}
+	
+	
+}
